@@ -10,7 +10,7 @@
   },
   "consumables": [
     {
-      "model": "assets/RawFish.rbxm",
+      "model": "assets/RawFish.json",
       "id": "fish:raw_fish",
       "displayName": "Raw Fish",
       "bagSpace": 1,
@@ -20,7 +20,7 @@
       "hungerGiven": 15
     },
     {
-      "model": "assets/CookedFish.rbxm",
+      "model": "assets/CookedFish.json",
       "id": "fish:cooked_fish",
       "displayName": "Cooked Fish",
       "bagSpace": 1,
