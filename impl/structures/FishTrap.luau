@@ -5,6 +5,7 @@
 local SPAWN_COOLDOWN = 20
 
 return function(id: string, api): ()
+	print("hello from", id)
 	local hasFish = false
 	local function trySpawn(trap: Model): ()
 		if hasFish then
