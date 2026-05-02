@@ -8,6 +8,15 @@
       "Runic"
     ]
   },
+  "structures": [
+    {
+      "model": "assets/FishTrap.json",
+      "id": "fish:fish_trap",
+      "displayName": "Fish Trap",
+      "implementationKind": "structure",
+      "implementation": "impl/structures/FishTrap.luau"
+    }
+  ],
   "consumables": [
     {
       "model": "assets/RawFish.json",
