@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "id": "fish",
+    "name": "Fish Mod",
+    "description": "Adds fish",
+    "version": "1.0.0",
+    "authors": [
+      "Runic"
+    ]
+  },
+  "consumables": [
+    {
+      "model": "assets/RawFish.rbxm",
+      "id": "fish:raw_fish",
+      "displayName": "Raw Fish",
+      "bagSpace": 1,
+      "cookSpeed": 20,
+      "cookedVariant": "fish:cooked_fish",
+      "healthGiven": -10,
+      "hungerGiven": 15
+    },
+    {
+      "model": "assets/CookedFish.rbxm",
+      "id": "fish:cooked_fish",
+      "displayName": "Cooked Fish",
+      "bagSpace": 1,
+      "healthGiven": 5,
+      "hungerGiven": 15
+    }
+  ]
+}
