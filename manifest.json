@@ -23,9 +23,7 @@
       "id": "fish:fish_trap",
       "displayName": "Fish Trap",
       "implementationKind": "structure",
-      "implementation": "impl/structures/FishTrap.luau",
-
-      "hitSound": "WoodHit"
+      "implementation": "impl/structures/FishTrap.luau"
     }
   ],
   "consumables": [
